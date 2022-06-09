@@ -25,3 +25,10 @@ public class AddedNOT_string {
 	 
 	 Assert.assertEquals(notString(str), "not candy");
  }
+  @Test
+ public void Testcase2() {
+	 
+	 String str="sweet";
+	 
+	 Assert.assertEquals(notString(str), "not sweet");
+ }
