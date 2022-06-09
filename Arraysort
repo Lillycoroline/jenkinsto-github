@@ -43,11 +43,6 @@ public class WordArraysort {
 	String s="summerlion";
 	Assert.assertEquals(check(s), "noilremmus");
 	}
-	@Test
-	public void test6()
-	{
-	String s="automation testing";
-	Assert.assertEquals(check(s), "noitamotua gnitset");
-	}
+	
 	
 	}
