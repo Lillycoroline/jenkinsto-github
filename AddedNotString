@@ -32,3 +32,10 @@ public class AddedNOT_string {
 	 
 	 Assert.assertEquals(notString(str), "not sweet");
  }
+ @Test
+ public void Testcase3() {
+	 
+	 String str="candy";
+	 
+	 Assert.assertEquals(notString(str), "not candy");
+ }
