@@ -18,12 +18,7 @@ public class WordArraysort {
 	    }  
 	    return rev.trim();
 	}
-	@Test
-	public void test1()
-	{
-	String s="reverse every word";
-	Assert.assertEquals(check(s), "esrever yreve drow");
-	}
+	
 	@Test
 	public void test2()
 	{
