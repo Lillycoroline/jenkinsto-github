@@ -30,4 +30,10 @@ public class WordArraysort {
 	String s="this is automation testing";
 	Assert.assertEquals(check(s), "siht si noitamotua gnitset");
 	}
+	@Test
+	public void test3()
+	{
+	String s="selenium";
+	Assert.assertEquals(check(s), "muineles");
+	}
 	}
