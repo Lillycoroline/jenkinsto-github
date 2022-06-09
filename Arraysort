@@ -42,5 +42,17 @@ public class WordArraysort {
 	String s="this automation testing";
 	Assert.assertEquals(check(s), "siht si noitamotua gnitset");
 	}
+	@Test
+	public void test5()
+	{
+	String s="summerlion";
+	Assert.assertEquals(check(s), "noilremmus");
+	}
+	@Test
+	public void test6()
+	{
+	String s="automation testing";
+	Assert.assertEquals(check(s), "noitamotua gnitset");
+	}
 	
 	}
